@@ -3,6 +3,7 @@ module SuperMarket
     class Base
 
       attr_reader :sku, :qty
+
       def initialize(sku, qty)
         @sku = sku
         @qty = qty
