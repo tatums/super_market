@@ -13,7 +13,7 @@ module SuperMarket
         end
 
         def amount_off
-          item_total * 10.to_f / 100
+          item_total * percentage_off
         end
 
         def percentage_off
